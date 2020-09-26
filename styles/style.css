@@ -25,19 +25,19 @@ li{
     margin: 10px;
 }
 
-.container .box-1{
+.box-1{
     margin: 20px;
 }
 
-.container .box-1 nav ul .left, .container .box-3 ul .left{
+.box-1 .left, .box-3 .left{
     float: left;
 }
 
-.container .box-1 nav ul .right, .container .box-3 ul .right{
+.box-1 .right, .box-3 .right{
     float: right;
 }
 
-.container .box-1 nav ul .right button{
+.box-1 .right button{
     padding: 10px;
     background-color: blue;
     border-style: none;
@@ -49,19 +49,19 @@ li{
     clear: both;
 }
 
-.container .box-2 #main #main-img{
+#main-img{
     padding-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-.container .box-2 #main .form{
+#main .form{
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
-.container .box-2 #main .form [type="text"]{
+#main .form [type="text"]{
     display: block;
     padding: 15px;
     width: 600px;
@@ -72,7 +72,7 @@ li{
     margin-bottom: 10px;
     font-size: 16px;
 }
-.container .box-2 #main .form [type="text"]:hover{
+#main .form [type="text"]:hover{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.19);
 }
 
@@ -93,7 +93,7 @@ li{
 }
 
 
-.container .box-2 #main .form .btn{
+.form .btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ li{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.19);
 }
 
-.container .box-3{
+.box-3{
     position: absolute;
     bottom: 0;
     width: 100%;
